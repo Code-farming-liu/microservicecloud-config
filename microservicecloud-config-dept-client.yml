@@ -28,7 +28,9 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
   configuration:
     map-underscore-to-camel-case: true                        #配置数据库下划线转换驼峰
-
+security:
+  basic:
+    enabled: false
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
@@ -68,8 +70,9 @@ mybatis:
     - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
   configuration:
     map-underscore-to-camel-case: true                        #配置数据库下划线转换驼峰
-
-
+security:
+  basic:
+    enabled: false
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
